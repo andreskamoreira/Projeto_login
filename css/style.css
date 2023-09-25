@@ -3,18 +3,94 @@
     margin: 0;
     font-family: Helvetica;
     box-sizing: border-box; 
-    width: 100%;
-    height: 100%;
 } 
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
 p,
-h2{
-    color: white;
+h1{
+    color: #fdfdfd;
 }
 
 main{
-   display: flex;
-   background-image: url(/img/bg-intro-desktop.png);
-   background-color: rgb(228, 119, 119);
-
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/bg-intro-desktop.png);
+    background-color: rgb(226, 80, 80);
+    display: flex;
+    padding: 15rem;
 }
+.texto{
+    width: 50%;
+    margin: 5rem auto;
+}
+
+.texto h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.cadastro{
+    text-align: center;
+    width: 50%;
+}
+
+#free{
+    background-color: rgb(84, 59, 172);
+    color: #fdfdfd;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 4px;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+}
+
+.form{
+    margin: 0.5rem auto; 
+    background-color: #fdfdfd;
+    padding: 30px 25px 30px 25px;
+    border-radius: 15px;
+}
+
+input{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 0.9rem; 
+    margin: 0.5rem;   
+    padding: .8rem;
+}
+
+#send{
+    background-color: rgb(2, 203, 106);
+    text-transform: uppercase;
+    color: #fdfdfd;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 4px;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+}
+
+#footer{
+    color: rgb(134, 132, 132);
+    font-size: x-small;
+    margin: .5rem;
+}
+
+span{
+    color: rgb(169, 1, 1);
+}
+
+
+
+
+
+
+
+
+
