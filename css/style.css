@@ -46,10 +46,15 @@ main{
     border-radius: 4px;
     padding: 0.5rem 4rem;
     border-radius: 0.5rem;
+    border: 1px solid rgb(134, 132, 132);
+}
+
+#free:hover{
+    background-color: rgb(82, 47, 211);
 }
 
 .form{
-    margin: 0.5rem auto; 
+    margin: 0.5rem auto;  
     background-color: #fdfdfd;
     padding: 30px 25px 30px 25px;
     border-radius: 15px;
@@ -61,8 +66,9 @@ input{
     height: 45px;
     border-radius: 5px;
     font-size: 0.9rem; 
-    margin: 0.5rem;   
     padding: .8rem;
+    margin-bottom: 10px;
+    border: 1px solid rgb(134, 132, 132);
 }
 
 #send{
@@ -74,6 +80,11 @@ input{
     border-radius: 4px;
     padding: 0.5rem 4rem;
     border-radius: 0.5rem;
+    border: 1px solid rgb(134, 132, 132);
+}
+
+#send:hover{
+    background-color: rgb(8, 141, 77);
 }
 
 #footer{
