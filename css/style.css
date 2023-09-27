@@ -97,6 +97,37 @@ span{
     color: rgb(169, 1, 1);
 }
 
+@media (max-width: 1002px) {
+
+    #free{
+        padding: 0.4rem 3rem;
+    }
+
+    #send{
+        padding: 0.4rem 3rem;
+    }
+}
+
+@media (max-width: 942px) {
+
+    #free{
+        padding: 0.3rem 2rem;
+    }
+
+    #send{
+        padding: 0.3rem 2rem;
+    }
+}
+
+@media (max-width: 910px) {
+
+   .main{
+    display: flex;
+    flex-direction: column;
+    
+   }
+}
+
 
 
 
