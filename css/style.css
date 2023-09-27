@@ -28,7 +28,6 @@ main{
     width: 50%;
     padding: 5rem;
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
 }
 
@@ -138,18 +137,130 @@ span{
     }
 }
 
-@media (max-width: 910px) {
 
+@media (max-width: 769px) {
+    
     main{
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
+        flex-direction: column; 
+        height: 70rem;
+    }
+
+    #send{
+      font-size: 10px;
+    }
+
+}
+
+@media (max-width: 738px) {
+    
+    .texto h1{
+        font-size: 50px;
     }
 }
 
+@media (max-width: 715px) {
+    
+    .texto h1{
+        font-size: 40px;
+    }
+}
 
+@media (max-width: 697px) {
+    
+    main{
+        height: 80rem;
+    }
+}
 
+@media (max-width: 636px) {
+    
+    main{
+        height: 60rem;
+    }
 
+    .texto h1{
+        font-size: 39px;
+    }
+
+    .texto p{
+        font-size: 16px;
+    }
+
+    #free{
+        font-size: 15px;
+    }
+
+    #send{
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 628px) {
+    
+    main{
+        height: 65rem;
+    }
+
+    .texto h1{
+        font-size: 35px;
+    }
+
+    #free{
+        font-size: 14px;
+    }
+
+    #send{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 593px) {
+    
+    .texto h1{
+        font-size: 32px;
+    }
+
+    #free{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 553px) {
+    
+      
+    main{
+        height: 70rem;
+        padding: 0;
+    }
+
+    .texto h1{
+        font-size: 32px;
+    }
+
+    #free{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 534px) {
+    
+    main{
+        height: 60rem;
+    }
+
+    #free{
+        font-size: 11px;
+    }
+
+    .texto h1{
+        font-size: 25px;
+    }
+
+    .texto p{
+        font-size: 12px;
+    }
+}
 
 
 
