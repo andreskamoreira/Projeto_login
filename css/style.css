@@ -26,9 +26,10 @@ main{
 
 .texto{
     width: 50%;
-    padding: 5rem;
     display: flex;
     flex-direction: column;
+    margin: 2rem;
+    padding: 3rem;
 }
 
 .texto h1{
@@ -115,6 +116,13 @@ span{
     color: rgb(169, 1, 1);
 }
 
+
+@media (max-width: 1080px) {
+    #send{
+        padding: 0.5rem 3rem;
+    }
+}
+
 @media (max-width: 1002px) {
 
     #free{
@@ -126,7 +134,7 @@ span{
     }
 }
 
-@media (max-width: 942px) {
+@media (max-width: 950px) {
 
     #free{
         padding: 0.3rem 2rem;
@@ -137,12 +145,19 @@ span{
     }
 }
 
+@media (max-width: 950px) {
+
+    #send{
+        padding: 0.1rem 1rem;
+    }
+}
 
 @media (max-width: 769px) {
     
     main{
         flex-direction: column; 
-        height: 70rem;
+        /* height: 70rem; */
+        background-image: url(/img/bg-intro-mobile.png);
     }
 
     #send{
@@ -169,6 +184,14 @@ span{
     
     main{
         height: 80rem;
+    }
+
+    #free{
+        font-size: 14px;
+    }
+
+    #send{
+        font-size: 9px;
     }
 }
 
@@ -262,7 +285,13 @@ span{
     }
 }
 
+@media (max-width: 499px) {
+    
+    main{
+        height: 65rem;
+    }
 
+}
 
 
 
