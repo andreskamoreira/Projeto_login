@@ -156,20 +156,42 @@ span{
     
     main{
         flex-direction: column; 
-        /* height: 70rem; */
         background-image: url(/img/bg-intro-mobile.png);
     }
+
+    .texto{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center; 
+        margin: 30px;
+    }
+
+    .texto h1{
+        display: flex;
+        align-items: center;
+        font-size: 38px;
+    }
+
+    .texto p{
+        font-size: 18px;
+    }
+
+   .cadastro{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    } 
 
     #send{
       font-size: 10px;
     }
-
 }
 
 @media (max-width: 738px) {
     
     .texto h1{
-        font-size: 50px;
+        font-size: 35px;
     }
 }
 
@@ -182,9 +204,7 @@ span{
 
 @media (max-width: 697px) {
     
-    main{
-        height: 80rem;
-    }
+ 
 
     #free{
         font-size: 14px;
@@ -196,14 +216,6 @@ span{
 }
 
 @media (max-width: 636px) {
-    
-    main{
-        height: 60rem;
-    }
-
-    .texto h1{
-        font-size: 39px;
-    }
 
     .texto p{
         font-size: 16px;
@@ -221,14 +233,6 @@ span{
 
 @media (max-width: 628px) {
     
-    main{
-        height: 65rem;
-    }
-
-    .texto h1{
-        font-size: 35px;
-    }
-
     #free{
         font-size: 14px;
     }
@@ -238,60 +242,21 @@ span{
     }
 }
 
-@media (max-width: 593px) {
-    
-    .texto h1{
-        font-size: 32px;
-    }
-
-    #free{
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 553px) {
-    
-      
-    main{
-        height: 70rem;
-        padding: 0;
-    }
+@media (max-width: 320px) {
 
     .texto h1{
-        font-size: 32px;
-    }
-
-    #free{
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 534px) {
-    
-    main{
-        height: 60rem;
-    }
-
-    #free{
-        font-size: 11px;
-    }
-
-    .texto h1{
-        font-size: 25px;
+        font-size: 18px;
+        margin-bottom: 8px;
     }
 
     .texto p{
-        font-size: 12px;
+        font-size: 10px;
+        padding: 15px;
+        
     }
 }
 
-@media (max-width: 499px) {
-    
-    main{
-        height: 65rem;
-    }
 
-}
 
 
 
