@@ -202,9 +202,7 @@ span{
     }
 }
 
-@media (max-width: 697px) {
-    
- 
+@media (max-width: 697px) { 
 
     #free{
         font-size: 14px;
@@ -215,7 +213,22 @@ span{
     }
 }
 
-@media (max-width: 636px) {
+@media (max-width: 638px) {
+
+    .texto h1{
+        font-size: 38px;
+    }
+    .texto p{
+        font-size: 16px;
+    }
+
+    .texto p{
+        font-size: 16px;
+    }
+
+    .texto p{
+        font-size: 16px;
+    }
 
     .texto p{
         font-size: 16px;
@@ -242,6 +255,64 @@ span{
     }
 }
 
+@media (max-width: 606px) {
+    
+    .texto h1{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 542px) {
+    
+    .texto h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 478px) {
+    
+    .texto h1{
+        font-size: 27px;
+    }
+
+    .texto p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 431px) {
+    
+    .texto h1{
+        font-size: 25px;
+    }
+
+    .texto p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 399px) {
+    
+    .texto h1{
+        font-size: 22px;
+    }
+
+    .texto p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 351px) {
+    
+    .texto h1{
+        font-size: 20px;
+    }
+
+    .texto p{
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 320px) {
 
     .texto h1{
@@ -250,7 +321,6 @@ span{
     }
 
     .texto p{
-        font-size: 10px;
         padding: 15px;
         
     }
