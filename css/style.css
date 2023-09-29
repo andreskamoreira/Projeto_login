@@ -294,39 +294,23 @@ span{
 @media (max-width: 399px) {
     
     .texto h1{
-        font-size: 22px;
+        font-size: 32px;
+        padding: 1rem 3rem;
+        margin-bottom: 0;
     }
 
     .texto p{
-        font-size: 11px;
-    }
-}
-
-@media (max-width: 351px) {
-    
-    .texto h1{
-        font-size: 20px;
-    }
-
-    .texto p{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
 @media (max-width: 320px) {
 
     .texto h1{
-        font-size: 18px;
-        margin-bottom: 8px;
-    }
-
+        font-size: 25px;
+    } 
     .texto p{
         padding: 15px;
         
     }
 }
-
-
-
-
-
