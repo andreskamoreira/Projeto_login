@@ -5,6 +5,17 @@
     box-sizing: border-box; 
 } 
 
+:root {
+    --laranja: rgb(226, 80, 80);
+    --cinza: rgb(134, 132, 132);
+    --azul: rgb(84, 59, 172);
+    --marinho: rgb(82, 47, 211);
+    --branco: #fdfdfd;
+    --verde: rgb(2, 203, 106);
+    --vermelho: rgb(169, 1, 1);
+    --musgo: rgb(8, 141, 77);
+}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -12,19 +23,19 @@ body{
 
 p,
 h1{
-    color: #fdfdfd;
+    color: var(--branco);
 }
 
 main{
     width: 100vw;
     height: 100vh;
     background-image: url(/img/bg-intro-desktop.png);
-    background-color: rgb(226, 80, 80);
+    background-color: var(--laranja);
     display: flex;
     align-items: center;
 }
 
-.texto{
+#texto{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -32,16 +43,16 @@ main{
     padding: 3rem;
 }
 
-.texto h1{
+#texto h1{
     font-size: 53px;
     margin-bottom: 2rem;
 }
 
-.texto p{
+#texto p{
     font-size: 18px;
 }
 
-.cadastro{
+#cadastro{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -49,26 +60,26 @@ main{
 }
 
 #free{
-    background-color: rgb(84, 59, 172);
-    color: #fdfdfd;
+    background-color: var(--azul);
+    color: var(--branco);
     cursor: pointer;
     transition: 0.4s;
     border-radius: 4px;
     padding: 0.5rem 4rem;
     border-radius: 0.5rem;
-    border: 1px solid rgb(134, 132, 132);
+    border: 1px solid var(--cinza);
     width: 70%;   
     height: 45px;
     font-size: 16px;
 }
 
 #free:hover{
-    background-color: rgb(82, 47, 211);
+    background-color: var(--marinho);
 }
 
-.form{
+#form{
     margin: 0.5rem auto;  
-    background-color: #fdfdfd;
+    background-color: var(--branco);
     padding: 30px 25px 30px 25px;
     border-radius: 15px;
     width: 70%;
@@ -85,35 +96,35 @@ input{
     font-size: 0.9rem; 
     padding: .8rem;
     margin-bottom: 10px;
-    border: 1px solid rgb(134, 132, 132);
+    border: 1px solid var(--cinza);
 }
 
 #send{
-    background-color: rgb(2, 203, 106);
+    background-color: var(--verde);
     text-transform: uppercase;
-    color: #fdfdfd;
+    color: var(--branco);
     cursor: pointer;
     transition: 0.4s;
     border-radius: 4px;
     padding: 0.5rem 4rem;
     border-radius: 0.5rem;
-    border: 1px solid rgb(134, 132, 132);
+    border: 1px solid var(--cinza);
     width: 70%;   
     height: 45px;
 }
 
 #send:hover{
-    background-color: rgb(8, 141, 77);
+    background-color: var(--musgo);
 }
 
 #footer{
-    color: rgb(134, 132, 132);
+    color: var(--cinza);
     font-size: x-small;
     margin: .5rem;
 }
 
 span{
-    color: rgb(169, 1, 1);
+    color: var(--vermelho);
 }
 
 
@@ -159,7 +170,7 @@ span{
         background-image: url(/img/bg-intro-mobile.png);
     }
 
-    .texto{
+    #texto{
         width: 100%;
         margin: 0;
         padding: 0;
@@ -167,17 +178,17 @@ span{
         margin: 30px;
     }
 
-    .texto h1{
+    #texto h1{
         display: flex;
         align-items: center;
         font-size: 38px;
     }
 
-    .texto p{
+    #texto p{
         font-size: 18px;
     }
 
-   .cadastro{
+   #cadastro{
         width: 100%;
         margin: 0;
         padding: 0;
@@ -190,14 +201,14 @@ span{
 
 @media (max-width: 738px) {
     
-    .texto h1{
+    #texto h1{
         font-size: 35px;
     }
 }
 
 @media (max-width: 715px) {
     
-    .texto h1{
+    #texto h1{
         font-size: 40px;
     }
 }
@@ -215,22 +226,22 @@ span{
 
 @media (max-width: 638px) {
 
-    .texto h1{
+    #texto h1{
         font-size: 38px;
     }
-    .texto p{
+    #texto p{
         font-size: 16px;
     }
 
-    .texto p{
+    #texto p{
         font-size: 16px;
     }
 
-    .texto p{
+    #texto p{
         font-size: 16px;
     }
 
-    .texto p{
+    #texto p{
         font-size: 16px;
     }
 
@@ -257,59 +268,59 @@ span{
 
 @media (max-width: 606px) {
     
-    .texto h1{
+    #texto h1{
         font-size: 34px;
     }
 }
 
 @media (max-width: 542px) {
     
-    .texto h1{
+    #texto h1{
         font-size: 30px;
     }
 }
 
 @media (max-width: 478px) {
     
-    .texto h1{
+    #texto h1{
         font-size: 27px;
     }
 
-    .texto p{
+    #texto p{
         font-size: 13px;
     }
 }
 
 @media (max-width: 431px) {
     
-    .texto h1{
+    #texto h1{
         font-size: 25px;
     }
 
-    .texto p{
+    #texto p{
         font-size: 12px;
     }
 }
 
 @media (max-width: 399px) {
     
-    .texto h1{
+    #texto h1{
         font-size: 32px;
         padding: 1rem 3rem;
         margin-bottom: 0;
     }
 
-    .texto p{
+    #texto p{
         font-size: 12px;
     }
 }
 
 @media (max-width: 320px) {
 
-    .texto h1{
+    #texto h1{
         font-size: 25px;
     } 
-    .texto p{
+    #texto p{
         padding: 15px;
         
     }
