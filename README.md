@@ -33,5 +33,9 @@ Projeto ainda em conclusão.
 <img src=".github/Captura de tela 2023-10-02 154829.png" alt="desktop"/>
 Projeto Desktop
 
-<img src=".github/Captura de tela 2023-10-02 163945.png" alt="mobile"/>
+<br>
+
+<div id="readme">
+    <img src=".github/Captura de tela 2023-10-02 163945.png" alt="mobile"/>
+<div>
 Projeto Mobile
