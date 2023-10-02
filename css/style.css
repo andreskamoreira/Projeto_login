@@ -127,6 +127,11 @@ a{
     color: var(--vermelho);
 }
 
+#readme{
+    display: flex;
+    align-items: center;
+}
+
 
 @media (max-width: 1080px) {
     #send{
