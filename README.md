@@ -35,7 +35,6 @@ Projeto Desktop
 
 <br>
 
-<div id="readme">
-    <img src=".github/Captura de tela 2023-10-02 163945.png" alt="mobile"/>
-<div>
+<img src=".github/Captura de tela 2023-10-02 163945.png" alt="mobile" style="display: flex; justify-content: center; align-items: center"/>
+
 Projeto Mobile

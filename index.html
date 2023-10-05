@@ -18,14 +18,28 @@
         </div>      
         <div id="cadastro">
             <button id="free"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button> 
-            <div id="form">
-                <input type="text" name="name" id="name" placeholder="Jonathan">
-                <input type="text" name="last-name" id="last-name" placeholder="Last Name">
-                <input type="text" name="email" id="email" placeholder="Email Address">
-                <input type="password" name="password" id="password" placeholder="Password">
-                <button id="send">Claim your free trial</button>  
-                <p id="footer">By clicking the button, you are agreeing to our <a href="#"><strong>Tearms and Service</a></strong></p>
-            </div>
+                <form action="submit" id="form">  
+                    <div class="content">              
+                        <input type="text" name="name" id="name" placeholder="Jonathan">
+                        <a>Campo Obrigatório</a>
+                    </div>
+                    <div class="content">
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                        <a>Campo Obrigatório</a>
+                    </div>
+                    <div class="content">
+                        <input type="text" name="email" id="email" placeholder="Email Address">
+                        <a>Campo Obrigatório</a>
+                    </div>
+                    <div class="content">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <a>Campo Obrigatório</a>
+                    </div>
+                    <div id="btn">
+                        <button id="send">Claim your free trial</button>                  
+                        <p id="footer">By clicking the button, you are agreeing to our <strong>Tearms and Service</strong></p>
+                    </div>
+                </form>
         </div>
     </main>
 </body>

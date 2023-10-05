@@ -78,25 +78,33 @@ main{
 }
 
 #form{
-    margin: 0.5rem auto;  
     background-color: var(--branco);
-    padding: 30px 25px 30px 25px;
     border-radius: 15px;
+    padding: 30px 25px 30px 25px;
+    margin: 0.5rem auto;
+    width: 75%;    
+}
+
+#content{
+    border-radius: 15px; 
     width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 input{
     display: flex;
     width: 100%;
-    height: 45px;
+    height: 45px; 
     border-radius: 5px;
     font-size: 0.9rem; 
     padding: .8rem;
     margin-bottom: 10px;
     border: 1px solid var(--cinza);
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #send{
@@ -105,7 +113,6 @@ input{
     color: var(--branco);
     cursor: pointer;
     transition: 0.4s;
-    border-radius: 4px;
     padding: 0.5rem 4rem;
     border-radius: 0.5rem;
     border: 1px solid var(--cinza);
@@ -125,11 +132,16 @@ input{
 
 a{
     color: var(--vermelho);
+    visibility: hidden;
 }
 
-#readme{
-    display: flex;
-    align-items: center;
+.content.error input{
+    border-color: var(--vermelho);
+}
+
+.content.error a{
+    border-color: var(--vermelho);
+    visibility: visible;
 }
 
 
