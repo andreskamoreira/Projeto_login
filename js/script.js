@@ -11,8 +11,6 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     
     checkForm();
-
-    alert("Login realizado com sucesso!")
     
 });
 
@@ -73,13 +71,15 @@ function checkForm() {
     checkemail();
     checkpassword();
 
-    const formItems = form.querySelector("content");
+    const formItems = form.querySelectorAll(".content");
 
     const isValid = [...formItems].every((item) => {
         return item.className === "content"
     });
 
-    
+    if(isValid){
+        alert("Cadastrado com sucesso!")
+    }
 }
 
 function errorInput(input, message){
